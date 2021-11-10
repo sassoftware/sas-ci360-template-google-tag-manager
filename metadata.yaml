@@ -1,5 +1,5 @@
 homepage: "https://www.sas.com/en_us/solutions/customer-intelligence.html"
 documentation: "https://go.documentation.sas.com/doc/en/cintcdc/production.a/cintwlcm/home.htm"
 versions:
-  - sha: f2ee00094e8428d65a3254bf75d7331fcb4e7ba7
+  - sha: 780e4b2e16400dfecadead4eb1433a1832210549
     changeNotes: Initial release.
