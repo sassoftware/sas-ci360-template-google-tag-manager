@@ -1,0 +1,5 @@
+homepage: "https://www.sas.com/en_us/solutions/customer-intelligence.html"
+documentation: "https://go.documentation.sas.com/doc/en/cintcdc/production.a/cintwlcm/home.htm"
+versions:
+  - sha: tbd
+    changeNotes: Initial release.
