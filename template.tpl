@@ -10,7 +10,11 @@ ___INFO___
 
 {
   "displayName": "Customer Intelligence 360",
-  "categories": ["MARKETING", "PERSONALIZATION", "ANALYTICS"],
+  "categories": [
+    "MARKETING",
+    "PERSONALIZATION",
+    "ANALYTICS"
+  ],
   "description": "This is a template prototype for the CI360 Tag.",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
@@ -286,7 +290,6 @@ const createQueue = require("createQueue");
 const callInWindow = require("callInWindow");
 const copyFromWindow = require("copyFromWindow");
 const setInWindow = require("setInWindow");
-const injectScript = require("injectScript");
 const makeTableMap = require("makeTableMap");
 const log = require("logToConsole");
 
@@ -494,19 +497,6 @@ ___WEB_PERMISSIONS___
           }
         }
       ]
-    },
-    "clientAnnotations": {
-      "isEditedByUser": true
-    },
-    "isRequired": true
-  },
-  {
-    "instance": {
-      "key": {
-        "publicId": "inject_script",
-        "versionId": "1"
-      },
-      "param": []
     },
     "clientAnnotations": {
       "isEditedByUser": true
